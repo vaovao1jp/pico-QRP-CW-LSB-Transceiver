@@ -6,10 +6,10 @@
 
 ## 概要
 
-Raspberry Pi Pico2（RP2050）のデュアルコアと内蔵 ADC/PWM を活用した、7MHz（40m）帯の自作トランシーバー用ファームウェアです。CW（モールス）と LSB（下側波帯 SSB）の送受信を 1 台で切り替えて運用できます。受信は SDR（ソフトウェア無線）方式で、OLED にバンドスコープ・ウォーターフォール・波形表示を行います。
+Raspberry Pi Pico2（RP2350）のデュアルコアと内蔵 ADC/PWM を活用した、7MHz（40m）帯の自作トランシーバー用ファームウェアです。CW（モールス）と LSB（下側波帯 SSB）の送受信を 1 台で切り替えて運用できます。受信は SDR（ソフトウェア無線）方式で、OLED にバンドスコープ・ウォーターフォール・波形表示を行います。
 
 - 設計者コールサイン: **JR3XNW**
-- 対象 MCU: Raspberry Pi Pico2（RP2050, デュアルコア Cortex-M0+）
+- 対象 MCU: Raspberry Pi Pico2（RP2350, デュアルコア Cortex-M0+）
 - 表示器: SSD1306 128×64 OLED（I2C）
 - 周波数生成: Si5351（I2C, 3 出力 CLK0/CLK1/CLK2）
 

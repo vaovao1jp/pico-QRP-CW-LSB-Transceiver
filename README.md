@@ -7,7 +7,7 @@
 ## Overview
 
 Firmware for a homebrew 7MHz (40m) band transceiver that leverages the dual cores and the
-built-in ADC/PWM of the Raspberry Pi Pico (RP2040). A single unit can switch between CW
+built-in ADC/PWM of the Raspberry Pi Pico2 (RP2350). A single unit can switch between CW
 (Morse) and LSB (lower-sideband SSB) transmit/receive operation. Reception uses an SDR
 (software-defined radio) approach, with a band scope, waterfall, and waveform display on an OLED.
 

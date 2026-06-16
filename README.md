@@ -12,7 +12,7 @@ built-in ADC/PWM of the Raspberry Pi Pico (RP2040). A single unit can switch bet
 (software-defined radio) approach, with a band scope, waterfall, and waveform display on an OLED.
 
 - Designer callsign: **JR3XNW**
-- Target MCU: Raspberry Pi Pico2 (RP2050, dual-core Cortex-M0+)
+- Target MCU: Raspberry Pi Pico2 (RP2350, dual-core Cortex-M0+)
 - Display: SSD1306 128×64 OLED (I2C)
 - Frequency synthesis: Si5351 (I2C, 3 outputs CLK0/CLK1/CLK2)
 
